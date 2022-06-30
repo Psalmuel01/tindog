@@ -67,15 +67,18 @@ p {
 /* Title Section */
 #title {
   text-align: left;
+}
+
+#title .container-fluid {
   padding: 3% 15% 7%;
 }
 
 /* Title Image */
 .title-image {
-  width: 30%;
+  width: 22%;
   transform: rotate(25deg);
   position: absolute;
-  right: 20%;
+  right: 30%;
 }
 
 /* Features Section */
@@ -166,7 +169,7 @@ p {
 
 
 
-@media (max-width: 900px) {
+@media (max-width: 1028px) {
   #title {
     text-align: center;
   }
